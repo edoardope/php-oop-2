@@ -10,5 +10,6 @@ $Products = [
     $d = new product('https://arcaplanet.vtexassets.com/arquivos/ids/266561-1800-1800/felix-le-ghiottonerie-multipack-80x85g.jpg?v=1772304998&quality=1&width=1800&height=1800', '28,99', true, 'Felix Le Ghiottonerie Multipack 80X85G', new Animal('cat', 'adult'), new category('food', 'umido')),
     $e = new product('https://arcaplanet.vtexassets.com/arquivos/ids/275501-1800-1800/luna-e-teo-cuccia-angolare-colore-natural.jpg?v=1768090851&quality=1&width=1800&height=1800', '79,90', true, 'Cuccia per Cane Angolare in Similpelle Natural', new Animal('dog', 'all age'), new category('cuccia', 'morbida')),
     $f = new product('https://arcaplanet.vtexassets.com/arquivos/ids/265737-1800-1800/220273_PHO_PRO_DOG_CLIP_36352-1.jpg?v=1771228351&quality=1&width=1800&height=1800', '39,90', true, 'Cuccia Casetta Igloo in Sisal', new Animal('cat', 'all age'), new category('cuccia', 'casetta')),
+
 ]
     ?>
