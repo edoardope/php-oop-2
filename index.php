@@ -19,7 +19,7 @@ include __DIR__ . '/database/database.php';
     <section class="container-fluid p-5">
         <div class="row justify-content-around p-5">
             <?php foreach ($Products as $product) { ?>
-                <div class="card col-sm-5" style="width: 18rem;">
+                <div class="card mb-5" style="width: 18rem;">
                     <img src="<?php echo $product->imgUrl ?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <ul class="list-group list-group-flush">
