@@ -1,9 +1,10 @@
 <?php
+include __DIR__ . '/traits.php';
 class product
 {
+    use priceAvv;
+
     public $imgUrl;
-    public $prezzo;
-    public $avviable;
     public $name;
     public $animal;
     public $category;
@@ -17,6 +18,5 @@ class product
         $this->animal = $animal;
         $this->category = $category;
     }
-
 }
 ?>
